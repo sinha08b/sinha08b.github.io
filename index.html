@@ -1,44 +1,107 @@
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
 <head>
-    <link rel="stylesheet" href="style.css">
-    <title>Bhawna Sinha | RF Engineer</title>
-    <style>
-        body { font-family: Arial; margin: 40px; line-height: 1.6; }
-        h1 { color: #2c3e50; }
-        h2 { border-bottom: 2px solid #ddd; padding-bottom: 5px; }
-    </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bhawna Sinha | RF Engineer</title>
+<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<h1>Bhawna Sinha</h1>
-<p>RF / mmWave / THz Engineer | UC Davis</p>
+<!-- NAVBAR -->
 
-<h2>About Me</h2>
-<p>I am a graduate student at UC Davis specializing in applied electromagnetics, RF/mmWave systems, and THz sensing.</p>
+<header class="navbar">
+    <div class="logo">Bhawna Sinha</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
 
-<h2>Projects</h2>
-<ul>
-    <li><b>Patch Array Antenna Design</b> – Designed and simulated using HFSS</li>
-    <li><b>THz Metasurface Sensor</b> – Extraordinary Optical Transmission-based sensing</li>
-    <li><b>Stochastic Computing Hardware</b> – Low-power ML hardware research</li>
-</ul>
+<!-- HERO -->
 
-<h2>Skills</h2>
-<p>MEMS | Electromagnetics | RF | Antenna Design</p>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Bhawna Sinha</h1>
+        <p>RF / mmWave / THz Engineer | UC Davis</p>
+        <p class="sub">Applied Electromagnetics • THz Sensing • Antenna Design</p>
 
-<h2>Resume</h2>
-<p><a href="resume.pdf" target="_blank">Download Resume</a></p>
-
-<h2>Contact</h2>
-<p>Email: bhasinha@ucdavis.edu</p>
-
-<div class="project">
-    <h3>Patch Array Antenna</h3>
-    <p>Designed using HFSS for 500 GHz resonance.</p>
+```
+    <div class="buttons">
+        <a href="#" class="btn">LinkedIn</a>
+        <a href="#" class="btn">GitHub</a>
+        <a href="#" class="btn">Google Scholar</a>
+    </div>
 </div>
+
+<div class="hero-img">
+    <img src="images/profile.jpg">
+</div>
+```
+
+</section>
+
+<!-- PROJECTS -->
+
+<section id="projects" class="section">
+<h2>Featured Projects</h2>
+
+<div class="cards">
+
+<div class="card">
+    <img src="images/antenna.png">
+    <h3>Patch Array Antenna</h3>
+    <p>500 GHz metasurface design using HFSS</p>
+</div>
+
+<div class="card">
+    <img src="images/metasurface.png">
+    <h3>THz Metasurface Sensor</h3>
+    <p>Extraordinary Optical Transmission sensing</p>
+</div>
+
+<div class="card">
+    <img src="images/hardware.png">
+    <h3>Stochastic Hardware</h3>
+    <p>Low-power ML accelerator</p>
+</div>
+
+</div>
+</section>
+
+<!-- SKILLS -->
+
+<section id="skills" class="section">
+<h2>Technical Skills</h2>
+
+<div class="skills">
+<span>HFSS</span>
+<span>Keysight ADS</span>
+<span>MATLAB</span>
+<span>RF/mmWave</span>
+<span>Antenna Design</span>
+<span>Electromagnetics</span>
+</div>
+</section>
+
+<!-- RESUME -->
+
+<section id="resume" class="section center">
+<h2>Resume</h2>
+<a href="resume.pdf" class="btn large">Download Resume</a>
+</section>
+
+<!-- CONTACT -->
+
+<section id="contact" class="section">
+<h2>Contact</h2>
+<p>Email: bhawna-sinha@ucdavis.edu</p>
+</section>
 
 </body>
 </html>
