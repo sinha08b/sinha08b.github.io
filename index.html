@@ -4,7 +4,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bhawna Sinha | Electrical Engineer</title>
+<title>Bhawna Sinha | RF Engineer</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,36 +14,23 @@
 <!-- NAVBAR -->
 
 <header class="navbar">
-    <div class="logo">Bhawna Sinha</div>
-    <nav>
-        <a href="#">Home</a>
-        <a href="#projects">Projects</a>
-        <a href="#skills">Skills</a>
-        <a href="#resume">Resume</a>
-        <a href="#contact">Contact</a>
-    </nav>
+  <div class="logo">Bhawna Sinha</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#skills">Skills</a>
+    <a href="#contact">Contact</a>
+  </nav>
 </header>
 
 <!-- HERO -->
 
-<section class="hero">
-    <div class="hero-text">
-        <h1>Bhawna Sinha</h1>
-        <p>MS Student | UC Davis</p>
-        <p class="sub">Applied Electromagnetics • Sensors • Antenna Design • Wireless Communication</p>
-
-```
-    <div class="buttons">
-        <a href="www.linkedin.com/in/bhawna-s-6bb6a0231" class="btn">LinkedIn</a>
-        <a href="www.linkedin.com/in/bhawna-s-6bb6a0231" class="btn">LinkedIn</a>
-    </div>
-</div>
-
-<div class="hero-img">
-    <img src="image/profile.jpeg" alt="Profile Photo" width="250" >
-</div>
-```
-
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>RF / mmWave / THz Engineer</h1>
+    <p>Applied Electromagnetics • Antenna Design • THz Sensing</p>
+    <a href="#projects" class="btn">View Projects</a>
+  </div>
 </section>
 
 <!-- PROJECTS -->
@@ -50,31 +38,24 @@
 <section id="projects" class="section">
 <h2>Featured Projects</h2>
 
-<div class="cards">
+<div class="grid">
 
 <div class="card">
-    <img src="image/antenna.png">
-    <h3>Patch Array Antenna</h3>
-    <p>500 GHz metasurface design using HFSS</p>
+  <img src="images/antenna.png">
+  <h3>Patch Array Antenna</h3>
+  <p>500 GHz HFSS design</p>
 </div>
 
 <div class="card">
-    <img src="image/metasurface.png">
-    <h3>Metasurface Sensor</h3>
-    <p>Extraordinary Optical Transmission sensing</p>
+  <img src="images/metasurface.png">
+  <h3>THz Sensor</h3>
+  <p>EOT-based sensing</p>
 </div>
 
 <div class="card">
-    <img src="image/hardware.png">
-    <h3>Stochastic Hardware</h3>
-    <p>Low-power ML accelerator</p>
-</div>
-
-<div class="card">
-    <img src="image/filter.png">
-    <h3>Bandpass Filter</h3>
-    <p>Designed an X-band rectangular-waveguide (WG-15) bandpass filter using an EM-driven filter design approach in both
-reflection and transmission configurations to analyze its resonant and coupling behavior.</p>
+  <img src="images/hardware.png">
+  <h3>Stochastic Hardware</h3>
+  <p>Low-power ML accelerator</p>
 </div>
 
 </div>
@@ -83,31 +64,26 @@ reflection and transmission configurations to analyze its resonant and coupling 
 <!-- SKILLS -->
 
 <section id="skills" class="section">
-<h2>Technical Skills</h2>
+<h2>Skills</h2>
 
 <div class="skills">
-<span>HFSS</span>
-<span>Keysight ADS</span>
-<span>RF/mmWave</span>
-<span>THz</span>
-<span>Antenna Design</span>
-<span>Electromagnetics</span>
+  <span>HFSS</span>
+  <span>ADS</span>
+  <span>MATLAB</span>
+  <span>RF/mmWave</span>
+  <span>Electromagnetics</span>
 </div>
-</section>
 
-<!-- RESUME -->
-
-<section id="resume" class="section center">
-<h2>Resume</h2>
-<a href="resume.pdf" class="btn large">Download Resume</a>
 </section>
 
 <!-- CONTACT -->
 
-<section id="contact" class="section">
+<section id="contact" class="section center">
 <h2>Contact</h2>
-<p>Email: bhasinha@ucdavis.edu</p>
+<p>bhawna-sinha@ucdavis.edu</p>
 </section>
+
+<script src="script.js"></script>
 
 </body>
 </html>
